@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{0D12FB0B-ED3F-4589-A528-BE19E2A2D6EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{7C8F930C-19BF-4441-9B06-C269F922A567}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{29DBF35B-7F76-4DF5-9DA5-AE658C30FF4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{00F96074-2939-4FE4-9F6E-A48A16C03CD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cross-Cuting", "Cross-Cuting", "{EB79E065-823F-42B3-A718-0021D916D52D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{392AE2AA-602E-4C5C-B199-6974D92398B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDPosUnivem.Domain", "DDDPosUnivem.Domain\DDDPosUnivem.Domain.csproj", "{95024632-10BD-4556-B2CE-10AA68CB7F17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDPosUnivem.MVC", "DDDPosUnivem.MVC\DDDPosUnivem.MVC.csproj", "{6DAE0629-BF51-44DD-ACE0-E1F28F64A4A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDPosUnivem.Infra.Data", "DDDPosUnivem.Infra.Data\DDDPosUnivem.Infra.Data.csproj", "{626CCA29-1E98-4ACD-BE0E-E1E0270F9D03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDPosUnivem.Application", "DDDPosUnivem.Application\DDDPosUnivem.Application.csproj", "{44B14890-4AA4-4FA3-800C-019CB80692EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95024632-10BD-4556-B2CE-10AA68CB7F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95024632-10BD-4556-B2CE-10AA68CB7F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95024632-10BD-4556-B2CE-10AA68CB7F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95024632-10BD-4556-B2CE-10AA68CB7F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DAE0629-BF51-44DD-ACE0-E1F28F64A4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DAE0629-BF51-44DD-ACE0-E1F28F64A4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DAE0629-BF51-44DD-ACE0-E1F28F64A4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DAE0629-BF51-44DD-ACE0-E1F28F64A4A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626CCA29-1E98-4ACD-BE0E-E1E0270F9D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626CCA29-1E98-4ACD-BE0E-E1E0270F9D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626CCA29-1E98-4ACD-BE0E-E1E0270F9D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626CCA29-1E98-4ACD-BE0E-E1E0270F9D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B14890-4AA4-4FA3-800C-019CB80692EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B14890-4AA4-4FA3-800C-019CB80692EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B14890-4AA4-4FA3-800C-019CB80692EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B14890-4AA4-4FA3-800C-019CB80692EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB79E065-823F-42B3-A718-0021D916D52D} = {00F96074-2939-4FE4-9F6E-A48A16C03CD9}
+		{392AE2AA-602E-4C5C-B199-6974D92398B1} = {00F96074-2939-4FE4-9F6E-A48A16C03CD9}
+		{95024632-10BD-4556-B2CE-10AA68CB7F17} = {29DBF35B-7F76-4DF5-9DA5-AE658C30FF4A}
+		{6DAE0629-BF51-44DD-ACE0-E1F28F64A4A5} = {0D12FB0B-ED3F-4589-A528-BE19E2A2D6EE}
+		{626CCA29-1E98-4ACD-BE0E-E1E0270F9D03} = {392AE2AA-602E-4C5C-B199-6974D92398B1}
+		{44B14890-4AA4-4FA3-800C-019CB80692EE} = {7C8F930C-19BF-4441-9B06-C269F922A567}
+	EndGlobalSection
+EndGlobal
